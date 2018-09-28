@@ -1,0 +1,33 @@
+<html>
+<head>
+<title> background Tiling Test 1 </title>
+<style>
+p	{margin: 0;		padding:0;
+	 border: 0;		margin-top: 0.1em;
+	 }
+p.norep{  background-image :url(image/top.tile.gif);
+		  background-repeat: no-repeat;
+		  border:	solid thin black;
+		  }
+p.horiz{  background-image :url(image/top.tile.gif);
+		  background-repeat: repeat-x;
+		  border:	solid thin black;
+		  }
+p.vert{  background-image :url(image/top.tile.gif);
+		  background-repeat: repeat-y;
+		  border:	solid thin black;
+		  }
+p.vpad{  background-image :url(image/top.tile.gif);
+		  background-repeat: repeat-y;
+		  border:	solid thin black;
+		  padding-left: 41px;
+		  }
+</style>
+</head>
+<body>
+<H2> Background Tiling Test 1 </h2>
+<p CLASS="norep">Here is a boring paragraph with a no-repeat 
+	background. Tiling patterns are controlled by the
+	<code>background-repeat</code> property.</p>
+<p CLASS="horiz"> Herer is a paragraph with a background. The paragraph content is displayed on top of the background.
+Note hew the background is <em>till</em>
